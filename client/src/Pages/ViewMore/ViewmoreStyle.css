@@ -1,0 +1,150 @@
+.view_first_div{
+    padding: 100px 200px;
+}
+.card_view{
+    display: flex;
+    gap:100px;
+    justify-content: center;
+}
+.text_card_view{
+    display: flex;
+    gap:10px;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 400px;
+    height: 150px;
+    padding:30px;
+    background-color: #fff;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.card_view p,h2,h3,h4,h5,h6,.imageDetails p {
+    color:black
+}
+
+/* Slider */
+.slide{
+width: 200px;
+height: 350px;
+}
+
+
+
+.view_card_btn1{
+    background-color: rgb(28, 163, 35);
+    padding: 7px 20px;
+    width: 100px ;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+}
+.view_card_btn2{
+    background-color: rgb(190, 6, 15);
+    padding: 7px 20px;
+    margin-left: 10px;
+    margin: 10px;
+    width: 100px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+}
+.view_card_btn1:hover{
+    box-shadow: 1px 1px 1px  2px green;
+    background-color: white;
+    color: rgb(6, 163, 53);
+}
+.view_card_btn2:hover{
+    box-shadow: 1px 1px 1px 2px red;
+    background-color: white;
+    color: rgb(179, 2, 2);
+}
+
+
+
+/* second part */
+
+.view_location_map{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+    /* box-shadow: 2px 2px 7px 1px rgb(175, 180, 175); */
+}
+/* input[type="radio"]{
+    display: none;
+} */
+
+
+.reviews{
+    display: flex;
+    justify-content: flex-start;
+   align-items: flex-start;
+   flex-direction: column;
+   padding-top: 20px;   
+}
+.reviews textArea{
+    width: 450px ;
+    height: 100px;
+    margin-top: -20px;
+}
+/* Sunmit button */
+.reviews button{
+    background-color: rgb(0, 255, 191);
+    padding: 4px 15px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+}
+.reviews button:hover{
+    box-shadow: 1px 1px 1px  2px rgb(0, 255, 191);
+    background-color: white;
+    color: rgb(0, 255, 191);
+}
+
+.reviews_rating{
+    margin-top: 30px; 
+    padding-bottom: 5px;  
+}
+
+.reviews_rating .view_card_btn1{
+    background-color: rgb(28, 163, 35);
+    padding: 7px 2px;
+    width: 60px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    letter-spacing:1.3px;
+}
+.reviews_rating .view_card_btn2{
+    background-color: rgb(190, 6, 15);
+    padding: 7px 2px;
+    width: 60px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    letter-spacing:1.3px;
+}
+.reviews_rating .view_card_btn1:hover{
+    box-shadow: 1px 1px 1px  2px rgb(0, 14, 0);
+    background-color: white;
+    color: rgb(6, 163, 53);
+}
+.reviews_rating .view_card_btn2:hover{
+    box-shadow: 1px 1px 1px 2px rgb(24, 1, 1);
+    background-color: white;
+    color: rgb(179, 2, 2);
+}
+.reviews_rating h6{
+    padding-top:5px;
+}
+
+
+
+

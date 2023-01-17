@@ -1,0 +1,49 @@
+.form_Field {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  /* gap: 20px; */
+  width: 350px;
+  /* height: 400px; */
+  background-color: #fff;
+  padding: 30px 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
+  border-radius: 5px;
+  /* margin-top:5%; */
+  position:relative;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0
+}
+
+.form_Field h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: var(--primary);
+}
+
+
+
+
+.form_Field input {
+  padding: 10px;
+  margin-top: 5px;
+  /* margin-bottom: 20px; */
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form_Field button {
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px 20px;
+  font-family: 'Poppins';
+  border-radius: 4px;
+  cursor: pointer;
+}
+

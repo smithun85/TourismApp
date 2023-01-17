@@ -1,0 +1,128 @@
+.tours{
+ display: flex;
+ justify-content: flex-start;
+ align-items:flex-start;
+ flex-wrap: wrap;
+ gap: 20px;
+ padding: 20px 120px 0px 120px;
+
+ 
+}
+
+.record{
+    background-color: #fff;
+    width: 350px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+    box-shadow: rgba(50,50,93,0.25) 0px 2px 5px -1px,
+    rgba(50,50,93,0.25) 0px 2px 5px -1px;
+    border-radius: 4px;
+    position: relative;
+    /* margin-bottom: 20px;
+    margin-right: 20px; */
+}
+
+.record h3{
+    margin: 0 0 10px 0;
+    font-size: 1.1em;
+    color: black;
+    font-weight: 800;
+  }
+
+  .record p{
+    margin: 0 0 8px 0;
+    font-size: 0.9em;
+    color:rgb(43, 42, 42);
+  }
+
+  .btns{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* position: relative;
+    top: 70px;
+    right: 20px; */
+
+  }
+
+   .btns a{
+    padding:12px ;
+    cursor: pointer;
+    background-color: rgb(6, 6, 199);
+    color: #fff;
+    border:none;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    margin-top:60px;
+  
+  }
+  
+  .imageUrl img{
+    width:140px;
+    height:170px;
+    border-radius: 5px;
+  }
+  .tours .title .viewLink{
+   padding: 8px;
+    cursor: pointer;
+    background-color: rgb(6, 6, 199);
+    color: #fff;
+    border:none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    top: 6px;
+  }
+  .tours .title .locationLink{
+    display:flex;
+    margin-left:-4px;
+  }
+
+
+  /* MapBox */
+  .locations{
+    position: relative;
+    top: 60px;
+}
+
+
+/* Login_PopUp */
+.popup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.signUpPopUp{
+  width: 450px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;    
+  background-color: rgb(240, 231, 231);
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+.signUpPopUp h2{
+  color:rgba(247, 39, 39, 0.808);
+  font-size: 35px;
+}
+.signUpPopUp h3{
+  background-color:rgba(39, 60, 247, 0.808);
+  padding: 5px 30px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+

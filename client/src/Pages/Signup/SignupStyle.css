@@ -1,0 +1,123 @@
+
+
+.main_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 450px;
+    padding-bottom: 20px;
+    background-color: white;
+    border: 1px solid rgb(121, 119, 119);
+    border-right: none;
+    
+    
+}
+.main_info  h2{
+    color: brown;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 20px 20px;
+}
+.main_info form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+    
+}
+
+
+.main_info label{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+.main_info input{
+     display: block;
+    outline: none;
+    border: 1px solid black;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.main_info button{
+    border: none;
+    background-color: var(--error);
+    color: white;
+    outline: none;
+    padding: 10px 30px ;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 17px;
+}
+.main_info button:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(235, 114, 77, 0.25) 1px 4px 5px 1px ,
+    rgba(248, 113, 113, 0.3) 1px 4px 3px 1px;
+}
+
+.image img{
+    height: 500px;
+    width: 450px;
+    object-fit:cover;
+    margin-top: 8px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Signup_PopUp */
+.popup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.signUpPopUp{
+    width: 450px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;    
+    background-color: rgb(240, 231, 231);
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+.signUpPopUp h2{
+    color:rgba(247, 39, 39, 0.808);
+    font-size: 30px;
+}
+.signUpPopUp p{
+    color:rgba(39, 60, 247, 0.808);
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.signUpPopUp h3{
+    background-color:rgba(39, 60, 247, 0.808);
+    padding: 5px 30px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+

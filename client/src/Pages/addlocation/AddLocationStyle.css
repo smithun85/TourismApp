@@ -1,0 +1,80 @@
+/* .totalField {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 350px;   
+    background-color: #fff;
+    padding: 30px 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
+    border-radius: 5px;    
+    position:relative;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0
+  } */
+
+.totalForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.totalForm h1 {
+    text-align: center;
+    color: rgb(73, 73, 73);
+}
+
+.addLocation {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+.addlocation_view{
+    color: blue;
+    font-size: 18px;
+    border-bottom: 2px solid blue;
+}
+
+.addLocation input {
+    border-radius: 5px;
+    width: 440px;
+    height: 43px;
+    text-align: start;
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+.Location {
+    display: flex;
+    gap: 30px;
+}
+.Location input {
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+}
+
+.anchor {
+    padding: 7px 15px;
+    color: white;
+    background-color: rgb(37, 37, 107);
+    border: none;
+    border-radius: 5px;
+}
+.anchor:hover{
+    background-color: transparent;
+    /* color: rgb(11, 11, 17); */
+    font-weight: 680;
+    box-shadow: rgba(62, 4, 168, 0.25) 1px 3px 7px 1px,
+        rgba(74, 2, 141, 0.3) 1px 1px 2px 1px;
+        color:rgb(46, 46, 46)
+}
